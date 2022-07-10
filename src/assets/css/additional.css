@@ -1,0 +1,43 @@
+@media screen and (max-width: 640px) {
+    #lg-pic {
+        display: none;
+    }
+    #sm-pic {
+        display: block;
+    }
+
+    #info {
+        top: 4rem;
+        right: 0;
+        padding: 2rem;
+    }
+}
+@media screen and (min-width: 640px) {
+    #lg-pic {
+        display: block;
+    }
+    #sm-pic {
+        display: none;
+    }
+
+    #info {
+        padding: 2rem;
+        top: 4rem;
+        right: 0;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    #lg-pic {
+        display: block;
+    }
+    #sm-pic {
+        display: none;
+    }
+
+    #info {
+        padding: 4rem;
+        top: 4rem;
+        right: 4rem;
+    }
+}

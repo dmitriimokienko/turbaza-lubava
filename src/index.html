@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Турбаза Любава</title>
+
+        <!-- icons -->
+        <!-- https://fonts.google.com/icons -->
+
+        <!-- custom css -->
+        <link href="./assets/css/additional.css" rel="stylesheet" />
+
+        <!-- tailwindcss bundle -->
+        <link href="./assets/css/main.css" rel="stylesheet" />
+
+        <!-- fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat" />
+        <style>
+            body {
+                font-family: "Caveat", serif;
+                font-size: 1.6rem;
+            }
+        </style>
+        <!-- Russian available fonts -->
+        <!-- https://fonts.google.com/?subset=cyrillic&category=Handwriting -->
+
+        <!-- owl carausel -->
+        <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
+        <script src="./assets/js/jquery.min.js"></script>
+        <script src="./assets/js/owl.carousel.min.js"></script>
+    </head>
+
+    <body class="bg-white">
+        <!-- header -->
+        <header
+            class="flex items-center justify-between px-8 py-4 flex-col md:px-16 md:py-8 lg:px-16 lg:py-8 md:flex-row lg:flex-row"
+        >
+            <h1 class="text-3xl font-bold">
+                Турбаза Любава <br />
+                Отдохни на берегу Волги
+            </h1>
+            <a href="#">
+                <img class="object-cover h-36" src="./assets/img/logo.png" alt="Турбаза Любава" />
+            </a>
+            <div>
+                Бронирование:
+                <div class="flex items-center">
+                    <img class="inline" width="25px" height="25px" src="./assets/icons/call.svg" alt="Телефон" />
+                    <a class="pl-4" name="contacts" href="tel:+79271568239">
+                        <span class="text-2xl font-bold text-gray-700 hover:text-black">+7(927)156-82-39</span></a
+                    >
+                </div>
+                <div class="flex items-center">
+                    <img class="inline" width="25px" height="25px" src="./assets/icons/call.svg" alt="Телефон" />
+                    <a class="pl-4" name="contacts" href="tel:+79271595372">
+                        <span class="text-2xl font-bold text-gray-700 hover:text-black">+7(927)159-53-72</span></a
+                    >
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- main -->
+            <section class="flex flex-col mb-12 xl:flex-row md:mb-24 xl:mb-24">
+                <article class="flex flex-col justify-between px-8 py-4 bg-green-500 md:px-16 md:py-8 lg:px-16 lg:py-8">
+                    <h2 class="text-3xl font-bold text-white pl-2 mb-8">
+                        <a name="main">Райский уголок в Саратовской области</a>
+                    </h2>
+                    <div class="text-white flex flex-col gap-y-8">
+                        <div class="flex justify-between items-center w-full gap-6">
+                            <div class="flex flex-col w-1/2">
+                                <img width="50px" height="50px" src="./assets/icons/house.svg" alt="Дом" /><span
+                                    >Три варианта размещения</span
+                                >
+                            </div>
+                            <div class="flex flex-col w-1/2">
+                                <img width="50px" height="50px" src="./assets/icons/boat.svg" alt="Лодка" /><span
+                                    >Бесплатные лодки</span
+                                >
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center w-full gap-6">
+                            <div class="flex flex-col w-1/2">
+                                <img width="50px" height="50px" src="./assets/icons/forest.svg" alt="Лес" /><span
+                                    >Каждый домик оборудован зоной барбекю</span
+                                >
+                            </div>
+                            <div class="flex flex-col w-1/2">
+                                <img width="50px" height="50px" src="./assets/icons/sport.svg" alt="Лес" /><span
+                                    >Спортивные площадки и тенисный стол</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <!-- button -->
+                    <a href="#showmore" class="block">
+                        <button
+                            class="bg-white w-full text-green-500 hover:text-green-700 px-8 py-4 rounded-lg hover:drop-shadow-lg active:text-green-500 mt-4 xl:mt-0"
+                        >
+                            Узнать подробнее
+                        </button>
+                    </a>
+                </article>
+                <article class="flex items-center justify-center xl:w-3/5 xl:pr-16 xl:bg-green-500 md:py-8 lg:py-8">
+                    <img class="object-cover" src="./assets/img/main.jpg" alt="Любава веранда" />
+                </article>
+            </section>
+
+            <!-- cozy houses -->
+            <section
+                class="flex flex-col mb-12 md:mb-24 lg:mb-24 justify-between py-4 px-8 md:flex-row lg:flex-row md:px-16 md:py-8 lg:px-16 lg:py-8"
+            >
+                <article class="flex md:w-1/2 lg:w-1/2">
+                    <!-- carousel -->
+                    <div class="w-full md:max-w-sm lg:max-w-sm">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item flex items-center justify-center">
+                                <img
+                                    class="w-full h-full object-scale-down"
+                                    src="./assets/img/car-1.jpg"
+                                    alt="Домики"
+                                />
+                            </div>
+                            <div class="item flex items-center justify-center">
+                                <img
+                                    class="w-full h-full object-scale-down"
+                                    src="./assets/img/car-2.jpg"
+                                    alt="Домик издалека"
+                                />
+                            </div>
+                            <div class="item flex items-center justify-center">
+                                <img
+                                    class="w-full h-full object-scale-down"
+                                    src="./assets/img/car-3.jpg"
+                                    alt="Стол и стулья"
+                                />
+                            </div>
+                            <div class="item flex items-center justify-center">
+                                <img
+                                    class="w-full h-full object-scale-down"
+                                    src="./assets/img/car-4.jpg"
+                                    alt="Кровать и кресло"
+                                />
+                            </div>
+                            <div class="item flex items-center justify-center">
+                                <img
+                                    class="w-full h-full object-scale-down"
+                                    src="./assets/img/car-5.jpg"
+                                    alt="Душевая"
+                                />
+                            </div>
+                            <div class="item flex items-center justify-center">
+                                <img
+                                    class="w-full h-full object-scale-down"
+                                    src="./assets/img/car-6.jpg"
+                                    alt="Холодильник"
+                                />
+                            </div>
+                            <div class="item flex items-center justify-center">
+                                <img
+                                    class="w-full h-full object-scale-down"
+                                    src="./assets/img/car-7.jpg"
+                                    alt="Прихожая"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- description -->
+                <article class="md:w-1/2 lg:w-1/2">
+                    <a name="showmore">
+                        <h2 class="text-3xl font-bold text-green-500">Описание домиков и территории турбазы</h2>
+                    </a>
+                    <div class="flex flex-col xl:flex-row xl:justify-around xl:shadow-lg xl:p-8 xl:rounded-lg xl:mt-4">
+                        <div>
+                            <h3 class="text-2xl font-bold py-4">Домики</h3>
+                            <ul class="list-disc pl-8">
+                                <li class="py-1">Есть холодильник</li>
+                                <li class="py-1">Душ туалет</li>
+                                <li class="py-1">Кровать</li>
+                                <li class="py-1">Каждый день чистое пастельное белье</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-2xl font-bold py-4">Территория</h3>
+                            <ul class="list-disc pl-8">
+                                <li class="py-1">Большая зеленая территория</li>
+                                <li class="py-1">Есть мангалы</li>
+                                <li class="py-1">Выход к Волге</li>
+                                <li class="py-1">Лодки</li>
+                                <li class="py-1">Волейбольная и баскетбольная площадки</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- info section -->
+            <section class="relative">
+                <div id="info" class="bg-white opacity-80 absolute z-10 drop-shadow-xl rounded-lg md:w-3/5">
+                    <span class="text-xl text-black md:text-2xl"
+                        >Стоимость 1 линия 700р с человека 2 650 3 550 звони и бронируй! =7927 156 8239 +7927 159 53 72
+                        возле каждого дома оборудована зона барбекю( мангал стол и скамейки) при аренде домика лодка
+                        предоставляется бесплатно на территории имеется воллейбольная площадка баскетбольная качели и
+                        теннисный стол море впечатлений и хорошеее настроение бесплатно
+                    </span>
+                </div>
+                <img class="object-fill w-full" id="lg-pic" src="./assets/img/river_bg.png" alt="Пейзаж и лодка" />
+                <img
+                    class="object-fill w-full"
+                    id="sm-pic"
+                    src="./assets/img/river_bg_vertical.jpg"
+                    alt="Пейзаж и лодка"
+                />
+            </section>
+        </main>
+
+        <!-- footer -->
+        <footer
+            class="flex flex-col items-center justify-between bg-green-500 px-8 py-4 md:flex-row lg:flex-row md:px-16 md:py-8 lg:px-16 lg:py-8"
+        >
+            <!-- social -->
+            <section class="invisible">Social newtwork</section>
+
+            <!-- logo -->
+            <section class="flex items-center">
+                <a href="#">
+                    <img class="object-fill h-32 rounded-full" src="./assets/img/logo.png" alt="Турбаза Любава" />
+                </a>
+            </section>
+
+            <!-- info -->
+            <section class="flex flex-col pt-4 md:pt-0">
+                <!-- email -->
+                <div class="mb-4">
+                    <span>Напишите нам: </span
+                    ><a
+                        class="text-gray-200 hover:text-white"
+                        href="mailto:abc@example.com?subject = Feedback&body = Message"
+                    >
+                        rynoknarahova@gmail.ru
+                    </a>
+                </div>
+
+                <!-- tel -->
+                <div class="mb-4">
+                    <div class="flex items-center">
+                        <span>Бронирование: </span>
+                        <a class="pl-4" name="contacts" href="tel:+79271568239">
+                            <span class="text-gray-700 hover:text-white">+7(927)156-82-39</span></a
+                        >
+                    </div>
+                    <div class="flex items-center">
+                        <span class="invisible">Бронирование: </span>
+                        <a class="pl-4" name="contacts" href="tel:+79271595372">
+                            <span class="text-gray-700 hover:text-white">+7(927)159-53-72</span></a
+                        >
+                    </div>
+                </div>
+
+                <!-- address -->
+                <span>Адрес: <span class="text-white">ул. Московская, 152</span></span>
+            </section>
+        </footer>
+
+        <!-- custom scripts -->
+        <!-- owl carousel -->
+        <script>
+            $(document).ready(function () {
+                $(".owl-carousel").owlCarousel({
+                    items: 1,
+                    loop: true,
+                    margin: 10,
+                    autoplay: true,
+                    autoplayTimeout: 3000,
+                    autoplayHoverPause: true,
+                });
+            });
+            owl.trigger("play.owl.autoplay", [5000]);
+        </script>
+    </body>
+</html>

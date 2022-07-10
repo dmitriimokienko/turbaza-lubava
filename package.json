@@ -1,0 +1,20 @@
+{
+  "name": "rahova",
+  "version": "1.0.0",
+  "description": "landing",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/index.css -o ./src/assets/css/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitrii Mokienko",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4"
+  },
+  "dependencies": {
+    "simple-parallax-js": "^5.6.2"
+  }
+}
