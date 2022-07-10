@@ -50,13 +50,13 @@
                 <div class="flex items-center">
                     <img class="inline" width="25px" height="25px" src="./assets/icons/call.svg" alt="Телефон" />
                     <a class="pl-4" name="contacts" href="tel:+79271568239">
-                        <span class="text-2xl font-bold text-gray-700 hover:text-black">+7(927)156-82-39</span></a
+                        <span class="text-2xl font-bold text-gray-700 hover:text-green-500">+7(927)156-82-39</span></a
                     >
                 </div>
                 <div class="flex items-center">
                     <img class="inline" width="25px" height="25px" src="./assets/icons/call.svg" alt="Телефон" />
                     <a class="pl-4" name="contacts" href="tel:+79271595372">
-                        <span class="text-2xl font-bold text-gray-700 hover:text-black">+7(927)159-53-72</span></a
+                        <span class="text-2xl font-bold text-gray-700 hover:text-green-500">+7(927)159-53-72</span></a
                     >
                 </div>
             </div>
@@ -65,7 +65,9 @@
         <main>
             <!-- main -->
             <section class="flex flex-col mb-12 xl:flex-row md:mb-24 xl:mb-24">
-                <article class="flex flex-col justify-between px-8 py-4 bg-green-500 md:px-16 md:py-8 lg:px-16 lg:py-8">
+                <article
+                    class="flex flex-col justify-between px-8 py-4 bg-green-500 md:px-16 md:py-8 lg:px-16 lg:py-8 xl:w-4/5"
+                >
                     <h2 class="text-3xl font-bold text-white pl-2 mb-8">
                         <a name="main">Райский уголок в Саратовской области</a>
                     </h2>
@@ -85,12 +87,12 @@
                         <div class="flex justify-between items-center w-full gap-6">
                             <div class="flex flex-col w-1/2">
                                 <img width="50px" height="50px" src="./assets/icons/forest.svg" alt="Лес" /><span
-                                    >Каждый домик оборудован зоной барбекю</span
+                                    >Большая зеленая территория</span
                                 >
                             </div>
                             <div class="flex flex-col w-1/2">
                                 <img width="50px" height="50px" src="./assets/icons/sport.svg" alt="Лес" /><span
-                                    >Спортивные площадки и тенисный стол</span
+                                    >Спортивные площадки</span
                                 >
                             </div>
                         </div>
@@ -104,7 +106,7 @@
                         </button>
                     </a>
                 </article>
-                <article class="flex items-center justify-center xl:w-3/5 xl:pr-16 xl:bg-green-500 md:py-8 lg:py-8">
+                <article class="flex items-center justify-center xl:pr-16 xl:bg-green-500 md:py-8 lg:py-8">
                     <img class="object-cover" src="./assets/img/main.jpg" alt="Любава веранда" />
                 </article>
             </section>
@@ -170,11 +172,13 @@
                     </div>
                 </article>
                 <!-- description -->
-                <article class="md:w-1/2 lg:w-1/2">
+                <article class="md:w-1/2 lg:w-1/2 md:px-4">
                     <a name="showmore">
                         <h2 class="text-3xl font-bold text-green-500">Описание домиков и территории турбазы</h2>
                     </a>
-                    <div class="flex flex-col xl:flex-row xl:justify-around xl:shadow-lg xl:p-8 xl:rounded-lg xl:mt-4">
+                    <div
+                        class="flex flex-col md:px-8 xl:flex-row xl:justify-around xl:shadow-lg xl:p-8 xl:rounded-lg xl:mt-4"
+                    >
                         <div>
                             <h3 class="text-2xl font-bold py-4">Домики</h3>
                             <ul class="list-disc pl-8">
@@ -188,11 +192,12 @@
                         <div>
                             <h3 class="text-2xl font-bold py-4">Территория</h3>
                             <ul class="list-disc pl-8">
-                                <li class="py-1">Большая зеленая территория</li>
                                 <li class="py-1">Есть мангалы</li>
                                 <li class="py-1">Выход к Волге</li>
                                 <li class="py-1">Лодки</li>
                                 <li class="py-1">Волейбольная и баскетбольная площадки</li>
+                                <li class="py-1">Теннисный стол</li>
+                                <li class="py-1">Качели</li>
                             </ul>
                         </div>
                     </div>
@@ -201,12 +206,13 @@
 
             <!-- info section -->
             <section class="relative">
-                <div id="info" class="bg-white opacity-80 absolute z-10 drop-shadow-xl rounded-lg md:w-3/5">
-                    <span class="text-xl text-black md:text-2xl"
-                        >Стоимость 1 линия 700р с человека 2 650 3 550 звони и бронируй! =7927 156 8239 +7927 159 53 72
-                        возле каждого дома оборудована зона барбекю( мангал стол и скамейки) при аренде домика лодка
-                        предоставляется бесплатно на территории имеется воллейбольная площадка баскетбольная качели и
-                        теннисный стол море впечатлений и хорошеее настроение бесплатно
+                <div id="info" class="bg-white opacity-80 absolute z-10 drop-shadow-xl rounded-lg md:w-4/5">
+                    <span class="text-xl text-black md:text-3xl"
+                        >Стоимость 1 линия 700р с человека 2 650 3 550<br />
+                        Возле каждого дома оборудована зона барбекю (мангал стол и скамейки), при аренде домика - лодка
+                        предоставляется <b>бесплатно</b>!<br />
+                        Море впечатлений и хорошеее настроение <br />
+                        Написать нормально расценки и как подьехать к турбазе
                     </span>
                 </div>
                 <img class="object-fill w-full" id="lg-pic" src="./assets/img/river_bg.png" alt="Пейзаж и лодка" />
@@ -263,7 +269,7 @@
                 </div>
 
                 <!-- address -->
-                <span>Адрес: <span class="text-white">ул. Московская, 152</span></span>
+                <span class="hidden">Адрес: <span class="text-white">ул. Московская, 152</span></span>
             </section>
         </footer>
 
