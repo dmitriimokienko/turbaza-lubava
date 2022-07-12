@@ -16,10 +16,13 @@
         <link href="./assets/css/main.css" rel="stylesheet" />
 
         <!-- fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" rel="stylesheet" />
+
         <style>
             body {
-                font-family: "Caveat", serif;
+                font-family: "Marmelad", sans-serif;
                 font-size: 1.6rem;
             }
         </style>
@@ -36,9 +39,9 @@
     <body class="bg-white">
         <!-- header -->
         <header
-            class="flex items-center justify-between px-8 py-4 flex-col md:px-16 md:py-8 lg:px-16 lg:py-8 md:flex-row lg:flex-row"
+            class="flex items-center justify-between px-8 py-4 flex-col md:px-16 md:py-8 lg:px-16 lg:py-8 md:flex-row lg:flex-row text-slate-800 font-bold"
         >
-            <h1 class="text-3xl font-bold">
+            <h1 class="text-3xl text-slate-800">
                 Турбаза Любава <br />
                 Отдохни на берегу Волги
             </h1>
@@ -50,13 +53,13 @@
                 <div class="flex items-center">
                     <img class="inline" width="25px" height="25px" src="./assets/icons/call.svg" alt="Телефон" />
                     <a class="pl-4" name="contacts" href="tel:+79271568239">
-                        <span class="text-2xl font-bold text-gray-700 hover:text-green-500">+7(927)156-82-39</span></a
+                        <span class="text-2xl font-bold text-gray-700 hover:text-green-700">+7(927)156-82-39</span></a
                     >
                 </div>
                 <div class="flex items-center">
                     <img class="inline" width="25px" height="25px" src="./assets/icons/call.svg" alt="Телефон" />
                     <a class="pl-4" name="contacts" href="tel:+79271595372">
-                        <span class="text-2xl font-bold text-gray-700 hover:text-green-500">+7(927)159-53-72</span></a
+                        <span class="text-2xl font-bold text-gray-700 hover:text-green-700">+7(927)159-53-72</span></a
                     >
                 </div>
             </div>
@@ -66,12 +69,12 @@
             <!-- main -->
             <section class="flex flex-col mb-12 xl:flex-row md:mb-24 xl:mb-24">
                 <article
-                    class="flex flex-col justify-between px-8 py-4 bg-green-500 md:px-16 md:py-8 lg:px-16 lg:py-8 xl:w-4/5"
+                    class="flex flex-col justify-between px-8 py-4 bg-emerald-700 md:px-16 md:py-8 lg:px-16 lg:py-8 xl:w-4/5"
                 >
-                    <h2 class="text-3xl font-bold text-white pl-2 mb-8">
+                    <h2 class="text-4xl font-bold text-white pl-2 mb-2">
                         <a name="main">Райский уголок в Саратовской области</a>
                     </h2>
-                    <div class="text-white flex flex-col gap-y-8">
+                    <div class="text-white flex flex-col gap-y-7">
                         <div class="flex justify-between items-center w-full gap-6">
                             <div class="flex flex-col w-1/2">
                                 <img width="50px" height="50px" src="./assets/icons/house.svg" alt="Дом" /><span
@@ -79,8 +82,8 @@
                                 >
                             </div>
                             <div class="flex flex-col w-1/2">
-                                <img width="50px" height="50px" src="./assets/icons/boat.svg" alt="Лодка" /><span
-                                    >Бесплатные лодки</span
+                                <img width="50px" height="50px" src="./assets/icons/boat.svg" alt="Лодка" /><span>
+                                    Аренда лодок</span
                                 >
                             </div>
                         </div>
@@ -100,13 +103,13 @@
                     <!-- button -->
                     <a href="#showmore" class="block">
                         <button
-                            class="bg-white w-full text-green-500 hover:text-green-700 px-8 py-4 rounded-lg hover:drop-shadow-lg active:text-green-500 mt-4 xl:mt-0"
+                            class="bg-white w-full hover:italic font-bold text-green-900 hover:bg-slate-200 px-8 py-4 rounded-lg hover:drop-shadow-lg active:text-green-500 mt-4 xl:mt-0"
                         >
                             Узнать подробнее
                         </button>
                     </a>
                 </article>
-                <article class="flex items-center justify-center xl:pr-16 xl:bg-green-500 md:py-8 lg:py-8">
+                <article class="flex items-center justify-center xl:pr-16 xl:bg-green-600 md:py-8 lg:py-8">
                     <img class="object-cover" src="./assets/img/main.jpg" alt="Любава веранда" />
                 </article>
             </section>
@@ -174,27 +177,28 @@
                 <!-- description -->
                 <article class="md:w-1/2 lg:w-1/2 md:px-4">
                     <a name="showmore">
-                        <h2 class="text-3xl font-bold text-green-500">Описание домиков и территории турбазы</h2>
+                        <h2 class="text-3xl font-bold text-green-800">Описание домиков и территории турбазы</h2>
                     </a>
+
                     <div
                         class="flex flex-col md:px-8 xl:flex-row xl:justify-around xl:shadow-lg xl:p-8 xl:rounded-lg xl:mt-4"
                     >
                         <div>
-                            <h3 class="text-2xl font-bold py-4">Домики</h3>
-                            <ul class="list-disc pl-8">
-                                <li class="py-1">Есть холодильник</li>
-                                <li class="py-1">Душ туалет</li>
-                                <li class="py-1">Кровать</li>
-                                <li class="py-1">Каждый день чистое пастельное белье</li>
+                            <h3 class="text-2xl font-bold">Домики:</h3>
+                            <ul class="list-disc list-outside">
+                                <li class="py-1">Холодильник</li>
+                                <li class="py-1">Мангальная зона (мангал, стол, скамейки)</li>
+                                <li class="py-1">Электрическая плита</li>
+                                <li class="py-1">Пастельное белье</li>
+                                <li class="py-1">Прокат лодок БЕСПЛАТНО</li>
                             </ul>
                         </div>
 
                         <div>
-                            <h3 class="text-2xl font-bold py-4">Территория</h3>
-                            <ul class="list-disc pl-8">
-                                <li class="py-1">Есть мангалы</li>
+                            <h3 class="text-2xl font-bold">Территория:</h3>
+                            <ul class="list-disc list-outside">
+                                <li class="py-1">Парковка</li>
                                 <li class="py-1">Выход к Волге</li>
-                                <li class="py-1">Лодки</li>
                                 <li class="py-1">Волейбольная и баскетбольная площадки</li>
                                 <li class="py-1">Теннисный стол</li>
                                 <li class="py-1">Качели</li>
@@ -207,12 +211,26 @@
             <!-- info section -->
             <section class="relative">
                 <div id="info" class="bg-white opacity-80 absolute z-10 drop-shadow-xl rounded-lg md:w-4/5">
-                    <span class="text-xl text-black md:text-3xl"
-                        >Стоимость 1 линия 700р с человека 2 650 3 550<br />
-                        Возле каждого дома оборудована зона барбекю (мангал стол и скамейки), при аренде домика - лодка
-                        предоставляется <b>бесплатно</b>!<br />
-                        Море впечатлений и хорошеее настроение <br />
-                        Написать нормально расценки и как подьехать к турбазе
+                    <span class="text-xl text-black md:text-3xl">
+                        <div>
+                            <h3 class="text-3xl font-bold">Цены:</h3>
+                            <ul class="list-disc list-outside">
+                                <li class="py-1">1 линия - 700р с человека</li>
+                                <li class="py-1">2 линия - 650р с человека</li>
+                                <li class="py-1">3 линия - 550р с человека</li>
+                                <li class="py-1">Дети до 5 лет бесплатно</li>
+                                <li class="py-1">Дети с 5 до 10 за половину стоимости</li>
+                            </ul>
+                        </div>
+
+                        <span>
+                            Нас вы можете найти в
+                            <p class="underline decoration-solid">
+                                Саратовской области, Воскресенский район - с. Елшанка<br />
+                            </p>
+                        </span>
+
+                        Приезжайте, и вас ждет море впечатлений и хорошего настроения
                     </span>
                 </div>
                 <img class="object-fill w-full" id="lg-pic" src="./assets/img/river_bg.png" alt="Пейзаж и лодка" />
@@ -227,49 +245,42 @@
 
         <!-- footer -->
         <footer
-            class="flex flex-col items-center justify-between bg-green-500 px-8 py-4 md:flex-row lg:flex-row md:px-16 md:py-8 lg:px-16 lg:py-8"
+            class="flex flex-col items-center justify-between bg-gradient-to-r from-green-800 to-green-600 px-8 py-4 md:flex-row lg:flex-row md:px-16 md:py-8 lg:px-16 lg:py-8"
         >
             <!-- social -->
-            <section class="invisible">Social newtwork</section>
+            <section class="flex flex-col pt-4 md:pt-0">
+                <div class="flex items-center">
+                    <span>Адрес:</span>
+                    <span class="text-slate-200 hover:text-white">
+                        Саратовская обл., Воскресенский р-н, с.Елшанка
+                    </span>
+                </div>
+            </section>
 
             <!-- logo -->
             <section class="flex items-center">
                 <a href="#">
-                    <img class="object-fill h-32 rounded-full" src="./assets/img/logo.png" alt="Турбаза Любава" />
+                    <img class="object-fill h-32 rounded-full" src="./assets/img/logo1.jpg" alt="Турбаза Любава" />
                 </a>
             </section>
 
             <!-- info -->
             <section class="flex flex-col pt-4 md:pt-0">
-                <!-- email -->
-                <div class="mb-4">
-                    <span>Напишите нам: </span
-                    ><a
-                        class="text-gray-200 hover:text-white"
-                        href="mailto:abc@example.com?subject = Feedback&body = Message"
-                    >
-                        rynoknarahova@gmail.ru
-                    </a>
-                </div>
-
                 <!-- tel -->
                 <div class="mb-4">
                     <div class="flex items-center">
                         <span>Бронирование: </span>
                         <a class="pl-4" name="contacts" href="tel:+79271568239">
-                            <span class="text-gray-700 hover:text-white">+7(927)156-82-39</span></a
+                            <span class="text-white hover:text-green-500">+7(927)156-82-39</span></a
                         >
                     </div>
                     <div class="flex items-center">
                         <span class="invisible">Бронирование: </span>
                         <a class="pl-4" name="contacts" href="tel:+79271595372">
-                            <span class="text-gray-700 hover:text-white">+7(927)159-53-72</span></a
+                            <span class="text-white hover:text-green-500">+7(927)159-53-72</span></a
                         >
                     </div>
                 </div>
-
-                <!-- address -->
-                <span class="hidden">Адрес: <span class="text-white">ул. Московская, 152</span></span>
             </section>
         </footer>
 
