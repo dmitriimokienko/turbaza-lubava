@@ -347,5 +347,19 @@
                 removeNode('loader-bg');
             }, 100);
         </script>
+
+        <!-- loader -->
+        <script>
+            function removeNode(id) {
+                var node = document.getElementById(id);
+                return node.parentNode.removeChild(node);
+            }
+
+            var tid = setInterval(function () {
+                if (document.readyState !== "complete") return;
+                clearInterval(tid);
+                removeNode('loader-bg');
+            }, 100);
+        </script>
     </body>
 </html>
