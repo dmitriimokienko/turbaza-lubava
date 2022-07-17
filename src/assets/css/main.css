@@ -651,6 +651,11 @@ html {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.cursor-grabbing {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
 .resize {
   resize: both;
 }
@@ -667,16 +672,8 @@ html {
   flex-direction: column;
 }
 
-.items-end {
-  align-items: flex-end;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-end {
-  justify-content: flex-end;
 }
 
 .justify-center {
@@ -721,6 +718,10 @@ html {
   background-color: rgb(4 120 87 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -731,8 +732,18 @@ html {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-emerald-800 {
+  --tw-gradient-from: #065f46;
+  --tw-gradient-to: rgb(6 95 70 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-green-600 {
   --tw-gradient-to: #16a34a;
+}
+
+.to-emerald-600 {
+  --tw-gradient-to: #059669;
 }
 
 .object-cover {
@@ -1118,6 +1129,10 @@ html {
   .xl\:bg-emerald-700 {
     --tw-bg-opacity: 1;
     background-color: rgb(4 120 87 / var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-transparent {
+    background-color: transparent;
   }
 
   .xl\:pr-16 {
